@@ -8,7 +8,6 @@ interface NavBtnLinkProps {
 
 export const Container = styled.button<NavBtnLinkProps>`
   /* Buttons */
-
   /* Auto layout */
   display: flex;
   flex-direction: row;
@@ -18,7 +17,7 @@ export const Container = styled.button<NavBtnLinkProps>`
   gap: 4px;
 
   width: 499px;
-  height: 60px;
+  height: 50px;
 
   /* Primary */
   background: ${(props) => (props.fill ? `${colors.primary}` : "#FFF")};

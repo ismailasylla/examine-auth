@@ -11,7 +11,7 @@ interface Props {
 function InputText({ type, label, placeholder, name }: Props, ref: any) {
   return (
     <Container>
-      {label && <InputLabel>{label}</InputLabel>}
+      {/* {label && <InputLabel>{label}</InputLabel>} */}
       <Input type={type} placeholder={placeholder} name={name} ref={ref} />
     </Container>
   );
