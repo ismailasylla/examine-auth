@@ -1,6 +1,6 @@
 const colors = {
   // Dark Purple used for Headers
-  primary: "#2B2868",
+  primary: "#5e3b76",
   // Purple used for Sub Headers and Labels (Replaced #2A1467)
   primaryMedium: "#553B90",
   // Used for button hover (darken 35%)
