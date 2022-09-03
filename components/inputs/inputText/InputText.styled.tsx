@@ -4,11 +4,11 @@ import { colors } from "../../../constants/colors";
 export const Container = styled.div``;
 
 export const InputLabel = styled.div`
-  color: ${colors.primaryMedium};
+  color: ${colors.primary};
   margin-bottom: 5px;
 `;
 export const Input = styled.input`
-  /* padding: 10px 20px;
+  padding: 10px 20px;
   width: 100%;
   border: 1px solid #eee;
   border-radius: 4px;
@@ -19,8 +19,8 @@ export const Input = styled.input`
   }
   &:focus {
     outline: none;
-    box-shadow: 0px 0px 2px ${colors.primaryLight};
-  } */
+    box-shadow: 0px 0px 2px ${colors.primary};
+  }
 
   /* Form/Input-Type */
 

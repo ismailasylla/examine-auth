@@ -7,8 +7,19 @@ export const Container = styled.div`
 `;
 
 export const Text = styled.span`
-  color: ${colors.primary};
+  /* Title -> */
   font-size: 50px;
   display: flex;
   justify-content: center;
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 55px;
+  /* Dark */
+  color: ${colors.secondaryText};
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 `;

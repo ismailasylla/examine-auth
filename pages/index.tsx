@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import { FaFacebookF, FaGoogle, FaApple } from "react-icons/fa";
-import { SignupForm } from "./components/forms";
+import { SignupForm } from "../components/forms";
 
 const Home: NextPage = () => {
   return (
@@ -10,7 +10,6 @@ const Home: NextPage = () => {
         <title>Login / Register</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <SignupForm />
 
       {/* <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
